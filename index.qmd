@@ -1,0 +1,17 @@
+---
+---
+title: "Math 378 Final Project Francoeur"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+install.packages("palmerpenguins")
+```
+
+```{r}
+library(palmerpenguins)
+data(package = 'palmerpenguins')
+```
