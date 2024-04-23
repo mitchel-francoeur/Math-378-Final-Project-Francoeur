@@ -1,5 +1,5 @@
 ---
-title: "Penguins EDA"
+title: "Penguins EDA test"
 format:
   html:
     code-fold: true
