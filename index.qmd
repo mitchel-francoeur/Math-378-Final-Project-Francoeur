@@ -3,7 +3,7 @@
 title: "Math 378 Final Project Francoeur"
 ---
 
-This is a Quarto website. This is my final project for Math 378.
+This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
