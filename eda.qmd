@@ -22,6 +22,15 @@ df <- palmerpenguins::penguins
 ```
 
 ```{r}
+# Create a scatter plot
+ggplot(df, aes(x = bill_length_mm, y = body_mass_g, color = sex)) +
+  geom_point() +
+  labs(x = "Bill Length (mm)", y = "Body Mass (g)", color = "Sex") +
+  ggtitle("Penguin Size by Sex") +
+  theme_minimal()
+```
+
+```{r}
 df %>%
   group_by(species, sex) %>%
   summarise(
